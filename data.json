@@ -1,6 +1,88 @@
 {
-  "Name":"Dinuth",
-  "Grade": 10,
-  "Best_Subject":"Science"
+ "student":"Dinuth",
+ "UserID":"MFC0868",
+ "Grade": 10,
+ "medium": 1,
+ "best": {"Science": 91, "Civic":98, "History":90, "PTS": 95, "Sinhala":91, "Health":99, "Western_Music":90},
+ "Weak":{"German":63, "Buddhism":88, "ICT":84, "Maths":81, "English":88, "Geography":89},
 
-}
+ "Information_about_subjects":{
+    "Science":{
+       "strengths": ["cell structure", "genetics basics"],
+       "weaknesses": ["photosynthesis pathways"],
+       "avg_accuracy": 0.78,
+       "sessions_count": 5,
+       "last_session": "2026-08-10"
+      },
+
+    "Maths": {
+       "strengths": ["algebra"],
+       "weaknesses": ["trig identities"],
+       "avg_accuracy": 0.55,
+       "sessions_count": 3,
+       "last_session": "2026-08-11"
+      },
+
+    "Civic":"add our prompt here",
+    "History":"add our prompt here",
+    "PTS":"add our prompt here",
+    "Sinhala":"add our prompt here",
+    "Health":"add our prompt here",
+    "Western_Music":"add our prompt here",
+    "German":"add our prompt here",
+    "Buddhism":"add our prompt here",
+    "ICT":"add our prompt here",
+    "English":"add our prompt here",
+    "Geography":"add our prompt here"
+ },
+
+ "Informaton_about_clases":{
+    "school_clase":"add our prompt here",
+    "tution_clases":{
+        "Science":"add our prompt here",
+        "Maths":"add our prompt here",
+        "English":"add our prompt here",
+        "Western_Music":"add our prompt here"
+    }
+
+ },
+
+ "Personal_Info":{
+    "lerning_style":"Making short notes and Highlighting important stuff",
+    "confidence": "low | medium | high (how much data backs this up so far)",
+    "ambition":"Become a Engineer",
+    "Hobbies":"Coading, Learning Math, Reading books",
+    "Skills":"add our prompt here"
+ },
+
+ "Chat_History":[
+    {
+        "date": "2026-08-10",
+        "subject": "biology",
+        "duration_minutes": 22,
+        "topics_covered": ["photosynthesis"],
+        "performance_summary": "Struggled with light-dependent reactions, underst",
+        "mood_or_engagement": "engaged, asked follow-up questions"
+      }
+ 
+ ],
+
+
+ "To_Do_List":{
+   "Homework":{
+    "SchoolHW":{
+        "Homework":"All the Homework in all subjects",
+        "Homework_chat_history":"add our prompt here",
+        "Is_homework_done":true
+    },
+    "OtherHW":{
+        "Homework":"All other homeworks in tution clases",
+        "Homework_chat_history":"add our prompt here",
+        "Is_homework_done":true
+    }
+ },
+   "Exsam_preperations":"add our prompt here",
+   "Daily_Skill_Developing_Stuff":"add our prompt here"
+ }
+ 
+} 
